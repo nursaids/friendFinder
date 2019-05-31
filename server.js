@@ -1,7 +1,7 @@
 var express = require("express");
-const apiRoutes = require("./routing/apiRoutes");
-const htmlRoutes = require("./routing/htmlRoutes");
-var friends = require("./data/friends");
+var apiRoutes = require("./app/routing/apiRoutes");
+var htmlRoutes = require("./app/routing/htmlRoutes");
+var friends = require("./app/data/friends");
 
 var PORT = process.env.PORT || '8080'
 
